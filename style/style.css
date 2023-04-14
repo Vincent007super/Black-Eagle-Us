@@ -22,7 +22,7 @@ video {
 /*menu*/
 #menu{
     z-index: 1;
-    float: right;
+    right: 0;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.887);
     padding: 7px;
@@ -30,7 +30,8 @@ video {
     animation-duration: 1s;
     animation-delay: 3s;
     animation-fill-mode: forwards;
-    margin-right: -500px;
+    margin-right: -400px;
+    position: fixed;
 }
 
 .sidenav {
@@ -89,14 +90,18 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+
+img{
+  width: 45vw;
+}
 /*wrapper1*/
 #wrapper1{
+  padding: 1vw;
   background-color: #111;
     display: flex;
     flex-direction: row;
     margin-top: 105vh;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    color: antiquewhite;
 }
 
 hyper{
