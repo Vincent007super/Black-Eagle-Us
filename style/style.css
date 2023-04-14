@@ -73,7 +73,17 @@ video {
     padding: 16px;
     z-index: 1;
   }
-  
+
+  .sidenav #cheese {
+    margin-top: 30%;
+    color: #111;
+  }
+
+  .sidenav #cheese:hover {
+    color: red;
+    animation: grow 0.5s forwards;
+  }
+
 /*body*/
 body{
     margin: 0;
@@ -81,8 +91,12 @@ body{
 }
 /*wrapper1*/
 #wrapper1{
+  background-color: #111;
     display: flex;
     flex-direction: row;
+    margin-top: 105vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 hyper{
