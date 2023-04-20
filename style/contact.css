@@ -50,7 +50,7 @@ body{
   position: fixed;
   z-index: 10;
   top: 0;
-right: 0;
+  right: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
@@ -135,10 +135,18 @@ img{
   width: 100%;
 }
 
-#d_a{
+#d_a:hover{
   z-index: 2;
   background-image: url(../media/ds_ba.png);
   background-size: cover;
+  border-radius: 8%;
+}
+
+#y_a:hover{
+  z-index: 2;
+  background-image: url(../media/yt_ba.png);
+  background-size: cover;
+  border-radius: 8%;
 }
 /*effects*/
 @keyframes grow{
@@ -203,4 +211,16 @@ img{
 @keyframes social{
   0%{left: 10vw;}
   100%{left: 0;}
+}
+
+/*media screen size*/
+@media screen and (max-width: 1550px){
+  #hypers{
+    width: 100%;
+    justify-content: space-around;
+  }
+  #socials{
+    max-width: 100% !important;
+    justify-content: space-around;
+  }
 }
