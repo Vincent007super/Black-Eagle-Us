@@ -116,7 +116,9 @@ img{
 /*wrapper1*/
 #wrapper1{
   padding: 1vw;
-  background-color: #111;
+  background: rgb(2,0,36);
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,0.7721682422969187), rgba(0,0,0,0.671327906162465) 30%, rgba(0,0,0,0.5452774859943977) 80%, rgba(0,0,0,0.38561362044817926) 85%, rgba(0,0,0,0.28757440476190477) 90%, rgba(0,0,0,0.16992734593837533) 95%, rgba(0,0,0,0) 100%);
     display: flex;
     flex-direction: row;
     margin-top: 105vh;
